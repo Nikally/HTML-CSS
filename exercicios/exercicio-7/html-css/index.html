@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>exercicio-7</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>
+        Altere o tamanho da sua tela para testar a dinâmica das imagens. :D
+    </p>
+    
+    <picture>
+        <source media="(max-width: 750px )" srcset="Imagens/tamanhos/Pequeno.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="Imagens/tamanhos/Medio.png" type="image/png">
+        <img src="Imagens/tamanhos/Grande.png" alt="Imagem Grande">
+    </picture>
+
+    <audio preload="metadata" autoplay controls>
+        <source src="media/Kindred-mp3.mp3" type="audio/mpeg">
+        <source src="media/Kindred-ogg.ogg" type="audio/ogg">
+        <p>Infelizmente seu navegador não consegue reproduzir o aúdio. <a href="media/Kindred-mp3.mp3" download="media/Kindred-mp3" type="audio/mpeg">Baixe o arquivo .MP3</a></p>
+
+    </audio>
+</body>
+</html>

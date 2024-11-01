@@ -1,0 +1,38 @@
+@charset "UTF-8";
+@font-face {
+    font-family: nome ;
+    src: url(caminho) format(formato), url(segundo_arquivo_se_hover) format(formato);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    /*font: estilo weight size family*/
+
+    font: normal normal 1em 'Times New Romain', serif;
+    text-align: left;
+    background-color: rgb(166, 236, 213);
+}
+
+h1{
+    color:  orange;
+}
+
+h1#principal{
+    color: white;
+    text-align: center;
+    background-color: rgb(177, 216, 99);
+}
+
+h2{
+    color: rgb(185, 122, 4);
+}
+
+h3{
+    color: rgb(241, 182, 73);
+}
+
+.basico{
+    text-decoration: underline;
+    font-weight: 100;
+}

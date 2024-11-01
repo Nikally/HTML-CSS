@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+
+/*
+Use px and em para os tmanahos de fonte
+
+16px = 1em
+
+shorthand de font: font-style, font-weight, font-size e font-family
+*/
+
+body{
+    font-size: 1em ;
+}
+
+h1, h2{
+    font: italic bold 2em 'Work Sans', serif;
+    /*decoration weight size family*/
+}
+
+p{
+    font-family: 'Work Sans';
+}

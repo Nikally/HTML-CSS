@@ -1,0 +1,52 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'nome';
+    src: url('caminho') format('formato'), url('caminho') format('formato');
+    font-weight: normal;
+    font-style: normal;
+}
+
+div:hover {
+    color: darkblue;
+    width: 300px;
+}
+
+div > p {
+    display: none;
+}
+
+div:hover > p {
+    display: block;
+    color: white;
+    background-color: yellow;
+}
+
+a {
+    color: magenta;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: darkmagenta;
+}
+
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+a:active {
+    color: green;
+}
+
+.especial::before {
+    content: '☇';
+}
+
+a::after {
+    content: '[link]';
+    color: gray;
+    font-weight: normal;
+}

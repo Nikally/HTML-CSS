@@ -1,0 +1,131 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url(../pacote_do_desafio/fontes/idroid.otf) format('opentype');
+    font-weight: normal ;
+    font-style: normal;
+}
+
+body{
+    font: normal normal 1em 'idroid', sans-serif;
+    margin: 0%;
+    background-color: rgb(132, 225, 173);
+}
+
+header {
+    font-family:Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom, rgb(57, 203, 121), rgb(26, 92, 56) );
+    text-align: center;
+    color: white;
+    font-size: 0.85em;
+    padding: 1px;
+}
+
+header > p {
+    width: 380px;
+    height: 50px;
+    margin: auto;
+}
+
+nav {
+    text-align: left;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    margin: 5px 10px;
+    display: inline-block;
+    padding: 5px;
+}
+
+nav > a:hover {
+    background-color: rgb(44, 145, 89) ;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    width: 92%;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+}
+
+section > h1 {
+    color: rgb(48, 108, 76);
+    font-size: 2em;
+}
+
+section > h2 {
+    background-image: linear-gradient(to right, rgb(197, 235, 214), white);
+    padding: 0px 5px;
+    color: rgb(15, 136, 69);
+}
+
+section > p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-indent: 30px;
+    text-align: justify;
+}
+
+article#mostragem {
+    background-color: rgb(26, 92, 56);
+}
+
+article#pergunta {
+    background-color: rgb(197, 235, 214);
+    margin: 12px;
+    border-radius: 10px;
+}
+
+div#titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: rgb(47, 168, 102);
+    border-radius: 5px 5px 0px 0px;
+    color: white;
+    padding: 3px;
+}
+
+div#titulo > p {
+    display: inline;
+}
+
+div#conteudo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+}
+
+p > a {
+    text-decoration: none;
+    color: darkgreen;
+    font-weight: bold;
+}
+
+p > a::after {
+    content: url(imagens/corrente-link.png);
+}
+
+span.importante {
+    color: darkgreen;
+    font-weight: bold;
+}
+
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(26, 92, 56);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 10px 0px 0px 0px;
+}
+
+footer > p {
+    display: inline;
+}
+
+span#credito {
+    color: rgb(176, 226, 197);
+}
