@@ -1,5 +1,29 @@
 @charset "UTF-8";
 
-body {
+div.bloco {
+    border: 1px solid black;
+    height: 125px;
+    margin: 5px;
+    border-radius: 10px;
+    background-image: url(../imagens/wallpaper003.jpg);
+}
 
+div#quadro1 {
+    background-position: left top;
+}
+
+div#quadro2 {
+    background-position: left center;
+}
+
+div#quadro3 {
+    background-position: right bottom;
+}
+
+div#quadro4 {
+    background-position: right top;
+}
+
+div#quadro5 {
+    background-position: top center;
 }
