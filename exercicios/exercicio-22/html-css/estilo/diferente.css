@@ -1,13 +1,13 @@
 @charset "UTF-8";
 
 body {
-    background-color: black;
     height: 100vh;
 
-    background-image: url(../imagens/wallpaper002.jpg);
-    background-position: top center;
-    background-repeat: no-repeat;
+    /*background: color, image, position, repeat, size, attachment ;*/
+
+    background: black url(../imagens/wallpaper002.jpg) top center no-repeat fixed;
     background-size: cover;
+
 }
 
 main {
