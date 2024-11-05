@@ -2,6 +2,13 @@
 
 body{
     background-image: linear-gradient(to bottom, #350D8C, #010440);
+
+    background-image: url(imagens/wallpaper001.png);
+    background-size: cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+
+    height: 100vh;
 }
 
 h1{
@@ -29,7 +36,7 @@ header {
     background-color: #314e5a;
     border-radius: 15px;
 
-    max-width: 960px;
+    max-width: 700px;
 
     padding: 5px 0px;
 
@@ -62,7 +69,7 @@ main{
     padding: 10px;
     color: #27255f;
     margin: auto;
-    max-width: 940px;
+    max-width: 600px;
     min-width: 260px;
     text-align: justify;
     box-shadow: 4px 4px 4px #030646;
