@@ -49,3 +49,98 @@ table.completa td, th {
 table.completa td {
     font-size: 0.7em;
 }
+
+table.média-escolar {
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-spacing: 0px;
+    text-align: center;
+}
+
+table.média-escolar td {
+    border: solid 1px black;
+}
+
+table.média-escolar thead {
+    background-color: gray;
+    color: white;
+}
+
+table.média-escolar tbody th {
+    font-weight: normal;
+}
+
+table.média-escolar tbody th.header-área {
+    font-weight: bold;
+}
+
+table.média-escolar tr.média-área {
+    background-color: gray;
+    color: white;
+}
+
+h1.desespero {
+    font-variant: small-caps;
+}
+
+table.cadastro {
+    font-size: 1.5em;
+    border-spacing: 0px;
+    text-align: center;
+}
+
+table.cadastro caption {
+    font-weight: bold;
+}
+
+table.cadastro th, td {
+    padding: 16px;
+}
+
+table.cadastro td {
+    border: solid 1px black;
+    padding: 8px;
+}
+
+col.c_nome {
+    background-color: blueviolet;
+}
+
+col.c_gênero-c_idade {
+    background-color: aquamarine;
+}
+
+table {
+    font-size: 1.5em;
+}
+
+div.container-tabela {
+    overflow: auto;
+    width: 50vw;
+    margin: auto;
+}
+
+table.ultima {
+    border-spacing: 0px;
+    text-align: center;
+    position: relative;
+}
+
+table.ultima caption {
+    padding-bottom: 20px;
+}
+
+table.ultima td, th {
+    padding: 20px;
+    border: solid 1px black;
+}
+
+table.ultima tbody tr:nth-child(2n) {
+    background-color: burlywood;
+}
+
+table.ultima thead th {
+    position: sticky;
+    top: 0%;
+    background-color: blueviolet;
+}
