@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+table.numeros {
+    border-spacing:0px ;
+    font-size: 1.5em;
+    margin-left: 10px;
+}
+
+table.numeros td {
+    border: solid 1px black;
+    width: 70px;
+    text-align: center;
+}
+
+table.letras {
+    width: 400px;
+    font-size: 1.5em;
+    width: 500px;
+    border-spacing: 0px;
+}
+
+table.letras td {
+    border: solid 1px black;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 0%;
+}
+
+p {
+    margin-top: 0px;
+    text-indent: 10px;
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+table.completa {
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    border-spacing: 0px;
+}
+
+table.completa td, th {
+    border: solid 1px black;
+    padding: 15px;
+}
+
+table.completa td {
+    font-size: 0.7em;
+}
