@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+iframe.local-frame {
+    margin: auto;
+    display: block;
+
+    margin-top: 15px;
+}
+
+iframe {
+    width: 90vw;
+    margin: 15px;
+    border: solid black 2px;
+    height: 500px;
+}
