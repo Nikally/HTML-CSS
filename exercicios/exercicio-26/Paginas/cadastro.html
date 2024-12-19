@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Estilos/formulario.css">
     <title>Iframe de Cadastro</title>
 </head>
 <body>
@@ -12,9 +13,34 @@
     <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa fugiat quibusdam mollitia minus fugit qui, consectetur adipisci similique error aut voluptatibus dicta, cupiditate cumque quam quos. Dolor quaerat explicabo at?
     </p>
-    <iframe src="index.html" frameborder="0"></iframe>
+    <iframe class="cadastro" src="index.html" frameborder="1" sandbox="allow-forms allow-scripts allow-same-origin" referrerpolicy="no-referer">
+        <p>
+            Seu navegador não é compatível com a funcionalidade
+        </p>
+    </iframe>
     <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, a possimus, necessitatibus animi libero itaque omnis mollitia, earum accusamus pariatur quisquam temporibus eius cum beatae facere commodi officia iusto quam.
     </p>
+    <iframe class="script" src="javascypt.html" frameborder="1" referrerpolicy="no-referer" sandbox="sandbox">
+        <p>
+            Seu navegador não é compatível com a funcionalidade
+        </p>
+    </iframe>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium eligendi repellendus mollitia fugiat cum delectus possimus. Placeat incidunt laboriosam sequi. Quod esse fugiat dolorum. Consequatur ex excepturi magni labore veritatis!
+    </p>
+    <div style="padding:56.25% 0 0 0;position:relative;" class="vimeo-video"><iframe src="https://player.vimeo.com/video/896231378?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Winter"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 </body>
+<h2>
+    Mapas do Google
+</h2>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36553983.44087083!2d-96!3d56!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b0d03d337cc6ad9%3A0x9968b72aa2438fa5!2zQ2FuYWTDoQ!5e0!3m2!1spt-BR!2sbr!4v1734636882345!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    <p>
+        Navegador incompatível
+    </p>
+</iframe>
+<h2>
+    Waze
+</h2>
+<iframe src="https://embed.waze.com/iframe?zoom=14&lat=-12.977711&lon=-38.501673&ct=livemap" width="600" height="450" allowfullscreen></iframe>
 </html>

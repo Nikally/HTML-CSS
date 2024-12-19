@@ -1,1 +1,30 @@
 @charset "UTF-8";
+
+iframe.cadastro {
+    width: 70vw;
+    display: inline-block;
+    overflow: visible;
+}
+
+div.identification h2 {
+    display: inline-block;
+    font-size: 1.3em;
+    font-weight: normal;
+    font-variant: small-caps;
+}
+
+iframe.script {
+    overflow: auto;
+    width: 70vw;
+    height: 200px;
+}
+
+div.vimeo-video{
+    width: 90%;
+    margin: auto;
+}
+
+div.vimeo-video iframe {
+    height: 40%;
+    display: block;
+}
