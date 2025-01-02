@@ -9,5 +9,5 @@ body {
     width: 100vw;
     height: 100vh;
     background: black url(../Imagens/gerais/print_tela_celular.png)no-repeat top center;
-    background-size: 100%;
+    background-size: cover;
 }
