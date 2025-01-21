@@ -1,2 +1,11 @@
 @charset "UTF-8";
 
+.form_name {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.teste_de {
+    display: inline-block;
+    width: 120px;
+}

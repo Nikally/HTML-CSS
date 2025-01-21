@@ -11,5 +11,34 @@
     <h1>
         Criação de Formulário
     </h1>
+    <form autocomplete="off" action="../Sistema/cadastro.php" method="post">
+        <p class="form_name">
+            <label for="inome">Nome</label>
+        </p>
+            <input type="text" name="nome" id="inome">
+        <br>
+        <p class="form_name">
+            <label for="isobrenome">Sobrenome</label>
+        </p>
+            <input type="text" name="sobrenome" id="isobrenome">
+        <br>
+        <input type="submit" value="ENVIAR">
+    </form>
+    <h1>
+        Formulário 2
+    </h1>
+    <form action="../Sistema/cadastro.php" method="post">
+        <div class="form_group">
+            <label class="teste_de" for="iusuario">Nome de Usuário</label>
+            <input type="text" name="usuario" id="iusuario" required minlength="4">
+        </div>
+        <div class="form_group">
+            <label class="teste_de" for="isenha">Senha de Acesso</label>
+            <input type="password" name="senha" id="isenha" required minlength="12">
+        </div>
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar o Formulário">
+    </form>
 </body>
 </html>
