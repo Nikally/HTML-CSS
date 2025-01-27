@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body, html {
+    background-color: rgb(54, 54, 54);
+}
+
+header {
+    background-color: gray;
+}
+
+main {
+    background-color: white ;
+
+    padding: 15px;
+    margin: auto;
+
+    margin-top: 10px;
+    max-width: 500px;
+
+    border-radius: 15px;
+}
+
+main h1 {
+
+    text-align: center;
+    border-bottom: black solid 1px;
+
+    margin-bottom: 10px;
+}
+
+main h2 {
+    margin-bottom: 10px;
+}
+
+.form-camp {
+    display: flex;
+
+    margin-bottom: 10px;
+
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 5px;
+
+    box-shadow: 1px 1px 3px black inset;
+}
+
+.form-camp p {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.form-camp input {
+    text-indent: 10px;
+}
+
+div.form-end {
+    display: flex;
+}
+
+div.form-end input {
+    padding: 5px;
+}
+
+input.send {
+    margin-right: 74.5%;
+
+    padding: 5px;
+
+    font-weight: bold;
+}

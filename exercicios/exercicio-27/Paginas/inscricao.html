@@ -3,9 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../Estilos/Inscricao.css">
     <title>Inscrição</title>
 </head>
 <body>
-    
+    <header>
+        <h1>
+            Cadastro de Inscrição
+        </h1>
+    </header>
+    <main>
+        <h1>
+            Inscrição
+        </h1>
+        <h2>
+            Identificação
+        </h2>
+        <form action="#" method="post">
+            <div class="form-camp">
+                <label for="i-username">
+                    <p>
+                        Nome de Usuário
+                    </p>
+                </label>
+                    <input type="text" name="username" id="i-username"
+                    class="username">
+            </div>
+            <label for="i-password">
+                <div class="form-camp">
+                    <p>
+                        Senha de Usuário
+                    </p>
+                    <input type="password" name="user-password" id="i-password"
+                    required
+                    autocomplete="new-password"
+                    class="user-password">
+                </div>
+            </label>
+            <div class="form-end">
+                <input type="submit" value="Cadastrar" class="send">
+                <input type="reset" value="Limpar">
+            </div>
+        </form>
+        
+    </main>
 </body>
 </html>
