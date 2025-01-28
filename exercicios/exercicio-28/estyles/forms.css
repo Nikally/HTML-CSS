@@ -1,0 +1,19 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+form p {
+    display: inline-block;
+
+    width: 150px;
+    text-indent: 10px;
+
+    text-align: center;
+}
+.form-field {
+    background-color: lightgray;
+    margin-bottom: 10px;
+}
+input.media {
+    width: 200px;
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../estyles/forms.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>
+        Formulário
+    </h1>
+    <form action="#" method="post">
+        <div class="form-field">
+            <label for="i-name">
+                <p>
+                    Nome:
+                </p>
+            </label>
+            <input type="text" id="i-name" required maxlength="30" placeholder="Nome e Segundo Nome" autocomplete="username">
+        </div>
+        <div class="form-field">
+            <label for="i-avarage" title="Média da Aluna">
+                <p>
+                    Nota Média:
+                </p>
+            </label>
+            <input type="number" name="avarage" id="i-avarage" required maxlength="3" placeholder="Média" min="0.0" max="10" step="0.01" title="Média da Aluna">
+        </div>
+        <fieldset>
+            <legend>Períodos</legend>
+            <div class="form-field">
+                <label for="i-month">
+                    <p>Período Letivo</p>
+                </label>
+                <input type="month" name="month" id="i-month" value="2025-01">
+            </div>
+            <div class="form-field">
+                <label for="i-date">
+                    <p>
+                        Dia de Avaliação
+                    </p>
+                </label>
+                <input type="date" name="date" id="i-date">
+            </div>
+            <div class="form-field">
+                <label for="i-time">
+                    <p>Horário de Avaliação</p>
+                </label>
+                <input type="time" name="time" id="i-time">
+            </div>
+        </fieldset>
+        <div class="form-field">
+            <label for="i-mail">
+                <p>E-mail: </p>
+            </label>
+            <input type="email" name="mail" id="i-mail">
+        </div>
+        <div class="form-field">
+            <label for="i-phone">
+                <p>Númeor de Telefone</p>
+            </label>
+            <input type="tel" name="phone" id="i-phone" pattern="^[0-9](4)-[0-9](4)$">
+        </div>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Redefinir">
+    </form>
+    <h1>
+        Segundo Formulário
+    </h1>
+    <form action="#" method="post">
+        <fieldset>
+            <div class="form-field">
+                <input type="checkbox" name="check-escolha" id="i-check-escolha"> <label for="i-check-escolha">Escolha</label> <br>
+                <input type="checkbox" name="check-escolha 2" id="i-check-escolha 2"> <label for="i-check-escolha 2">Escolha 2</label> <br>
+                <input type="checkbox" name="check-escolha 3" id="icheck"> Escolha 3
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>cor</legend>
+            <div class="form-field">
+                <input type="radio" name="cor" id="i-cor"> <label for="i-cor">cor</label> <br>
+                <input type="radio" name="cor" id="i-cor 2" checked> <label for="i-cor 2">cor 2</label> 
+            </div>
+        </fieldset>
+        <input type="submit" value="Envie">
+        <input type="reset" value="Redefinir">
+    </form>
+    <h1>
+        Teceiro Form
+    </h1>
+    <form action="#" method="post">
+        <label for="i-color">
+            <p>Color</p>
+        </label>
+        <input type="color" name="" id="i-color">
+        <label for="i-satis">
+            <p>
+                Nível de Satisfação
+            </p>
+        </label>
+        <input type="range" name="" id="">
+    </form>
+    <h1>
+        Quarto Form
+    </h1>
+    <form action="#" method="post">
+        <label for="i-select">
+            <p>Escolha</p>
+        </label>
+        <select name="Escolha" id="i-select">
+            <option value="Nada">------------- Escolha ---------</option>
+            <optgroup label="N">
+                <option value="Aquele">Você sabe</option>
+            </optgroup>
+        </select>
+        <br>
+        <label for="i-profission">
+            <p>Profissão</p>
+        </label>
+        <input type="tel" name="" id="" list="list">
+        <datalist id="list">
+            <option value="adm">Administrador</option>
+        </datalist>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Redefinir">
+    </form>
+</body>
+</html>
